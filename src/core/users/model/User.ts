@@ -3,6 +3,6 @@ export default interface User {
     name: string;
     email: string;
     password: string;
-    createdAt: string;
-    updatedAt: string;
+    createdAt?: Date;
+    updatedAt?: Date;
 }
